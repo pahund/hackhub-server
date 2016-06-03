@@ -9,7 +9,6 @@ const mongoose = require("mongoose");
 const HackerSchema = new mongoose.Schema({
     name: String,
     userName: String,
-    businessUnit: String,
     description: String,
     score: Number
 });

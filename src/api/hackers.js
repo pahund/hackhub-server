@@ -21,7 +21,6 @@ module.exports = router => {
         const hacker = new Hacker();
         hacker.name = req.body.name;
         hacker.userName = req.body.userName;
-        hacker.businessUnit = req.body.businessUnit;
         hacker.description = req.body.description;
         hacker.score = req.body.score;
         hacker.save(err => {
@@ -42,7 +41,7 @@ module.exports = router => {
                 return;
             }
 
-            [ "name", "userName", "businessUnit", "description", "score" ].forEach(prop => {
+            [ "name", "userName", "description", "score" ].forEach(prop => {
                 if (req.body[prop] !== undefined) {
                     hacker[prop] = req.body[prop];
                 }
