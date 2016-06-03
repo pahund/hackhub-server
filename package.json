@@ -1,0 +1,19 @@
+{
+  "name": "hackhub-server",
+  "version": "0.0.1",
+  "description": "Backend server for HackHub, website for the eBay Classifieds Group TechHack Berlin 2016",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pahund/hackhub-server.git"
+  },
+  "author": "Patrick Hund <pahund@ebay.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/pahund/hackhub-server/issues"
+  },
+  "homepage": "https://github.com/pahund/hackhub-server"
+}
