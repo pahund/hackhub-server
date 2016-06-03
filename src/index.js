@@ -1,0 +1,35 @@
+/**
+ * index.js
+ *
+ * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
+ * @since 03 Jun 2016
+ */
+const express = require("express");
+const cors = require("cors");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+const teams = require("./api/teams");
+const hackers = require("./api/hackers");
+
+mongoose.connect("mongodb://localhost:27017/hackhub");
+
+const router = express.Router();
+
+const app = express();
+const port = process.env.PORT || 8080;
+
+app.use(cors());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+router.get("/", (req, res) => res.json({ message: "Welcome to the HackHub API!" }));
+
+teams(router);
+hackers(router);
+
+app.use("/hackhub/", router);
+
+app.listen(port);
+
+console.log(`API is running on port ${port}`);
+

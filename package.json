@@ -2,8 +2,10 @@
   "name": "hackhub-server",
   "version": "0.0.1",
   "description": "Backend server for HackHub, website for the eBay Classifieds Group TechHack Berlin 2016",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node ./src/index.js",
+    "watch": "node_modules/.bin/nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/pahund/hackhub-server/issues"
   },
-  "homepage": "https://github.com/pahund/hackhub-server"
+  "homepage": "https://github.com/pahund/hackhub-server",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
 }
