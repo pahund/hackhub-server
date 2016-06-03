@@ -32,8 +32,8 @@ module.exports = router => {
         });
     });
 
-    router.route("/teams/:id").put((req, res) => {
-        Team.findById(req.params.id, (err, team) => {
+    router.route("/teams/:slackChannel").put((req, res) => {
+        Team.findOne({ slackChannel: req.params.slackChannel }, (err, team) => {
             if (err) {
                 res.send(err);
                 return;
@@ -57,9 +57,9 @@ module.exports = router => {
         });
     });
 
-    router.route("/teams/:id").delete((req, res) => {
+    router.route("/teams/:slackChannel").delete((req, res) => {
         Team.remove({
-            _id: req.params.id
+            slackChannel: req.params.slackChannel
         }, err => {
             if (err) {
                 res.send(err);
@@ -71,8 +71,8 @@ module.exports = router => {
         });
     });
 
-    router.route("/teams/:id").get((req, res) => {
-        Team.findById(req.params.id, (err, team) => {
+    router.route("/teams/:slackChannel").get((req, res) => {
+        Team.findOne({ slackChannel: req.params.slackChannel }, (err, team) => {
             if (err) {
                 res.send(err);
                 return;

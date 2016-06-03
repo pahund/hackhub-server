@@ -34,8 +34,8 @@ module.exports = router => {
         });
     });
 
-    router.route("/hackers/:id").put((req, res) => {
-        Hacker.findById(req.params.id, (err, hacker) => {
+    router.route("/hackers/:userName").put((req, res) => {
+        Hacker.findOne({ userName: req.params.userName }, (err, hacker) => {
             if (err) {
                 res.send(err);
                 return;
@@ -59,9 +59,9 @@ module.exports = router => {
         });
     });
 
-    router.route("/hackers/:id").delete((req, res) => {
+    router.route("/hackers/:userName").delete((req, res) => {
         Hacker.remove({
-            _id: req.params.id
+            userName: req.params.userName
         }, err => {
             if (err) {
                 res.send(err);
@@ -73,8 +73,8 @@ module.exports = router => {
         });
     });
 
-    router.route("/hackers/:id").get((req, res) => {
-        Hacker.findById(req.params.id, (err, hacker) => {
+    router.route("/hackers/:userName").get((req, res) => {
+        Hacker.findOne({ userName: req.params.userName }, (err, hacker) => {
             if (err) {
                 res.send(err);
                 return;

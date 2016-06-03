@@ -6,8 +6,8 @@
  */
 const Hacker = require("../models/Hacker");
 
-module.exports = router => router.route("/bump/:id").put((req, res) => {
-    Hacker.findById(req.params.id, (err, hacker) => {
+module.exports = router => router.route("/bump/:userName").put((req, res) => {
+    Hacker.findOne({ userName: req.params.userName }, (err, hacker) => {
         if (err) {
             res.send(err);
             return;
