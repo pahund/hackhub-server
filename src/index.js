@@ -27,7 +27,7 @@ router.get("/", (req, res) => res.json({ message: "Welcome to the HackHub API!" 
 teams(router);
 hackers(router);
 
-app.use("/hackhub/", router);
+app.use("/api/", router);
 
 app.listen(port);
 
