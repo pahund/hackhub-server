@@ -1,7 +1,7 @@
 {
   "teams": [
     {
-      "name": "Marvel",
+      "name": "Marvel Heroes",
       "slackChannel": "th-marvel",
       "hackers": [
         "raymendoza", "ipimenov", "ashuiskov",
@@ -10,7 +10,7 @@
       "topic": "combot"
     },
     {
-      "name": "DC",
+      "name": "DC Heroes",
       "slackChannel": "th-dc",
       "hackers": [
         "raymendoza", "aneacsu", "efidelin", "davohara", "gvaradi"
