@@ -11,6 +11,8 @@ const HackerSchema = new mongoose.Schema({
     userName: String,
     description: String,
     score: Number,
+    isSubmitter: Boolean,
+    topic: String,
     teams: [ String ],
     achievements: [ String ]
 });

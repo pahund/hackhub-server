@@ -1,0 +1,555 @@
+{
+  "teams": [
+    {
+      "name": "Marvel",
+      "slackChannel": "th-marvel",
+      "hackers": [
+        "raymendoza", "ipimenov", "ashuiskov",
+        "smably", "yinggu", "crmcmahon"
+      ],
+      "topic": "combot"
+    },
+    {
+      "name": "DC",
+      "slackChannel": "th-dc",
+      "hackers": [
+        "raymendoza", "aneacsu", "efidelin", "davohara", "gvaradi"
+      ],
+      "topic": "combot"
+    },
+    {
+      "name": "The Walking Dead",
+      "slackChannel": "th-thewalkingdead",
+      "hackers": [
+        "ajoian", "cdehaudt", "ayulrizka", "cltran", "saabraham", "feiyu"
+      ],
+      "topic": "neardup"
+    },
+    {
+      "name": "Game of Thrones",
+      "slackChannel": "th-gameofthrones",
+      "hackers": [
+        "ajoian", "gabriele", "famora", "aelyasov", "beckart"
+      ],
+      "topic": "neardup"
+    },
+    {
+      "name": "Use the Force",
+      "slackChannel": "th-usetheforce",
+      "hackers": [
+        "bbompastor", "mnchristensen", "gron", "ddebastiani", "jbanford", "wendong"
+      ],
+      "topic": "convui"
+    },
+    {
+      "name": "The Dark Side",
+      "slackChannel": "",
+      "hackers": [
+        "bbompastor", "osoerensen", "mszczap", "isader", "jesnielsen", "snpilla"
+      ],
+      "topic": "convui"
+    },
+    {
+      "name": "Guardians of the Galaxy",
+      "slackChannel": "th-guardians",
+      "hackers": [
+        "jamwu", "ekalyoncu", "janehrhardt", "jhagel", "esrasmussen"
+      ],
+      "topic": "receng"
+    },
+    {
+      "name": "Futurama",
+      "slackChannel": "th-futurama",
+      "hackers": [
+        "jamwu", "nlnn", "dpostoronc", "kbrischke", "hribeiro", "fnapoletano"
+      ],
+      "topic": "receng"
+    }
+  ],
+  "hackers": [
+    {
+      "name": "Ray Mendoza",
+      "userName": "raymendoza",
+      "description": "software",
+      "score": 0,
+      "topic": "combot",
+      "teams": [
+        "th-marvel", "th-dc"
+      ],
+      "achievements": [],
+      "isSubmitter": true
+    },
+    {
+      "name": "Ilya Pimenov",
+      "userName": "ipimenov",
+      "score": 0,
+      "topic": "combot",
+      "teams": [
+        "th-marvel"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Aleksandr Shuiskov",
+      "userName": "ashuiskov",
+      "description": "SE",
+      "score": 0,
+      "topic": "combot",
+      "teams": [
+        "th-marvel"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Sylvan Mably",
+      "userName": "smably",
+      "description": "Developer, Kijiji CA",
+      "score": 0,
+      "topic": "combot",
+      "teams": [
+        "th-marvel"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Serina Gu",
+      "userName": "yinggu",
+      "score": 0,
+      "topic": "combot",
+      "teams": [
+        "th-marvel"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Craig McMahon",
+      "userName": "crmcmahon",
+      "description": "The iOS guy",
+      "score": 0,
+      "topic": "combot",
+      "teams": [
+        "th-marvel"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Andrei Neacsu",
+      "userName": "aneacsu",
+      "description": "Software Engineer",
+      "score": 0,
+      "topic": "combot",
+      "teams": [
+        "th-dc"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Eugene Fidelin",
+      "userName": "efidelin",
+      "score": 0,
+      "topic": "combot",
+      "teams": [
+        "th-dc"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "David Hara",
+      "userName": "davohara",
+      "description": "QA Engineer",
+      "score": 0,
+      "topic": "combot",
+      "teams": [
+        "th-dc"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Gyorgy Varadi",
+      "userName": "gvaradi",
+      "description": "Mobile Application Developer",
+      "score": 0,
+      "topic": "combot",
+      "teams": [
+        "th-dc"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Adrian Joian",
+      "userName": "ajoian",
+      "description": "Cloud Engineering",
+      "score": 0,
+      "topic": "neardup",
+      "teams": [
+        "th-gameofthrones", "th-thewalkingdead"
+      ],
+      "achievements": [],
+      "isSubmitter": true
+    },
+    {
+      "name": "Xtof Dehaudt",
+      "userName": "cdehaudt",
+      "description": "XFactor",
+      "score": 0,
+      "topic": "neardup",
+      "teams": [
+        "th-thewalkingdead"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Ahmy Yulrizka",
+      "userName": "ayulrizka",
+      "description": "iCas dev team, Netherlands",
+      "score": 0,
+      "topic": "neardup",
+      "teams": [
+        "th-thewalkingdead"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Claire Tran",
+      "userName": "cltran",
+      "score": 0,
+      "topic": "neardup",
+      "teams": [
+        "th-thewalkingdead"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Santosh Abraham",
+      "userName": "saabraham",
+      "score": 0,
+      "topic": "neardup",
+      "teams": [
+        "th-thewalkingdead"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Jason Yu",
+      "userName": "feiyu",
+      "description": "QA",
+      "score": 0,
+      "topic": "neardup",
+      "teams": [
+        "th-thewalkingdead"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "gabriele nazeri",
+      "userName": "gabriele",
+      "description": "Software developer",
+      "score": 0,
+      "topic": "neardup",
+      "teams": [
+        "th-gameofthrones"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Fabio Mora",
+      "userName": "famora",
+      "description": "eCG Italy - Software Engineer",
+      "score": 0,
+      "topic": "neardup",
+      "teams": [
+        "th-gameofthrones"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Alexander Elyasov",
+      "userName": "aelyasov",
+      "description": "Software engineer",
+      "score": 0,
+      "topic": "neardup",
+      "teams": [
+        "th-gameofthrones"
+      ],
+      "achievements": []
+    },
+    {
+      "name": " Benjamin Eckart",
+      "userName": "beckart",
+      "description": "Manager Software Development – Trust & Safety",
+      "score": 0,
+      "topic": "neardup",
+      "teams": [
+        "th-gameofthrones"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Bruno Bompastor",
+      "userName": "bbompastor",
+      "description": "Cloud Engineer",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-usetheforce", "th-thedarkside"
+      ],
+      "achievements": [],
+      "isSubmitter": true
+    },
+    {
+      "name": "Mathias Christensen",
+      "userName": "mnchristensen",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-usetheforce"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Gonzalo Ron",
+      "userName": "gron",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-usetheforce"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Dario De Bastiani",
+      "userName": "ddebastiani",
+      "description": "Frontender @gumtree UK",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-usetheforce"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Jamie Banford",
+      "userName": "jbanford",
+      "description": "Software Engineer (iOS)",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-usetheforce"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Vincent Dong",
+      "userName": "wendong",
+      "description": "Global Mobile QE",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-usetheforce"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Ole Lynge Sørensen",
+      "userName": "osoerensen",
+      "description": "tech lead",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-thedarkside"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Mateusz Szczap",
+      "userName": "mszczap",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-thedarkside"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Imad Sader",
+      "userName": "isader",
+      "description": "Front-end magic",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-thedarkside"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Jesper Nielsen",
+      "userName": "jesnielsen",
+      "description": "iOS Developer",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-thedarkside"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Subbarao Pilla",
+      "userName": "snpilla",
+      "score": 0,
+      "topic": "convui",
+      "teams": [
+        "th-thedarkside"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "James Wu",
+      "userName": "jamwu",
+      "description": "S-OOPS Nginear",
+      "score": 0,
+      "topic": "receng",
+      "teams": [
+        "th-guardians", "th-futurama"
+      ],
+      "achievements": [],
+      "isSubmitter": true
+    },
+    {
+      "name": "Egemen Kalyoncu",
+      "userName": "ekalyoncu",
+      "score": 0,
+      "topic": "receng",
+      "teams": [
+        "th-guardians"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Jan Ehrhardt",
+      "userName": "janehrhardt",
+      "description": "Architect Commercial",
+      "score": 0,
+      "topic": "receng",
+      "teams": [
+        "th-guardians"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Jordan Hagel",
+      "userName": "jhagel",
+      "description": "Front End Developer",
+      "score": 0,
+      "topic": "receng",
+      "teams": [
+        "th-guardians"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Esben Rasmussen",
+      "userName": "esrasmussen",
+      "score": 0,
+      "topic": "receng",
+      "teams": [
+        "th-guardians"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Niklas Lönn",
+      "userName": "nlnn",
+      "score": 0,
+      "topic": "receng",
+      "teams": [
+        "th-futurama"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Dumitru Postoronca",
+      "userName": "dpostoronc",
+      "description": "Software Engineer",
+      "score": 0,
+      "topic": "receng",
+      "teams": [
+        "th-futurama"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Kristine Brischke",
+      "userName": "kbrischke",
+      "description": "Teamlead mobile.de Technology",
+      "score": 0,
+      "topic": "receng",
+      "teams": [
+        "th-futurama"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Miguel Ribeiro",
+      "userName": "hribeiro",
+      "description": "Frontend Developer",
+      "score": 0,
+      "topic": "receng",
+      "teams": [
+        "th-futurama"
+      ],
+      "achievements": []
+    },
+    {
+      "name": "Francesco Napoletano",
+      "userName": "fnapoletano",
+      "description": "Software Engineer @ Kijiji Italy",
+      "score": 0,
+      "topic": "receng",
+      "teams": [
+        "th-futurama"
+      ],
+      "achievements": []
+    }
+  ],
+  "topics": [
+    {
+      "name": "Combot",
+      "codeName": "combot",
+      "description": "PH_TODO",
+      "submitter": "raymendoza",
+      "teams": [
+        "th-marvel", "th-dc"
+      ]
+    },
+    {
+      "name": "Near-Duplicates",
+      "codeName": "neardup",
+      "description": "PH_TODO",
+      "submitter": "ajoian",
+      "teams": [
+        "th-gameofthrones", "th-thewalkingdead"
+      ]
+    },
+    {
+      "name": "Conversational UI",
+      "codeName": "convui",
+      "description": "PH_TODO",
+      "submitter": "bbompastor",
+      "teams": [
+        "th-usetheforce", "th-thedarkside"
+      ]
+    },
+    {
+      "name": "Recommendation Engine",
+      "codeName": "receng",
+      "description": "PH_TODO",
+      "submitter": "jamwu",
+      "teams": [
+        "th-guardians", "th-futurama"
+      ]
+    }
+  ],
+  "achievements": [
+
+  ]
+}

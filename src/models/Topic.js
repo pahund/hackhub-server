@@ -10,6 +10,7 @@ const TopicSchema = new mongoose.Schema({
     name: String,
     codeName: String,
     description: String,
+    submitter: String,
     teams: [ String ]
 });
 
