@@ -10,7 +10,9 @@ const HackerSchema = new mongoose.Schema({
     name: String,
     userName: String,
     description: String,
-    score: Number
+    score: Number,
+    teams: [ String ],
+    achievements: [ String ]
 });
 
 module.exports = mongoose.model("Hacker", HackerSchema);

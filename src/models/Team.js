@@ -8,7 +8,9 @@ const mongoose = require("mongoose");
 
 const TeamSchema = new mongoose.Schema({
     name: String,
-    slackChannel: String
+    slackChannel: String,
+    hackers: [ String ],
+    topic: String
 });
 
 module.exports = mongoose.model("Team", TeamSchema);

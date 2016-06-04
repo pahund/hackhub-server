@@ -8,8 +8,9 @@ const mongoose = require("mongoose");
 
 const AchievementSchema = new mongoose.Schema({
     name: String,
+    codeName: String,
     description: String,
-    type: String, // "Gold", "Silver", "Bronze"
+    score: Number,
     available: Boolean
 });
 
