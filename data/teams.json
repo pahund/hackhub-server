@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Marvel Heroes",
+    "slackChannel": "th-marvel",
+    "hackers": [
+      "raymendoza", "ipimenov", "ashuiskov",
+      "smably", "yinggu", "crmcmahon"
+    ],
+    "topic": "combot"
+  },
+  {
+    "name": "DC Heroes",
+    "slackChannel": "th-dc",
+    "hackers": [
+      "raymendoza", "aneacsu", "efidelin", "davohara", "gvaradi"
+    ],
+    "topic": "combot"
+  },
+  {
+    "name": "The Walking Dead",
+    "slackChannel": "th-thewalkingdead",
+    "hackers": [
+      "ajoian", "cdehaudt", "ayulrizka", "cltran", "saabraham", "feiyu"
+    ],
+    "topic": "neardup"
+  },
+  {
+    "name": "Game of Thrones",
+    "slackChannel": "th-gameofthrones",
+    "hackers": [
+      "ajoian", "gabriele", "famora", "aelyasov", "beckart"
+    ],
+    "topic": "neardup"
+  },
+  {
+    "name": "Use the Force",
+    "slackChannel": "th-usetheforce",
+    "hackers": [
+      "bbompastor", "mnchristensen", "gron", "ddebastiani", "jbanford", "wendong"
+    ],
+    "topic": "convui"
+  },
+  {
+    "name": "The Dark Side",
+    "slackChannel": "",
+    "hackers": [
+      "bbompastor", "osoerensen", "mszczap", "isader", "jesnielsen", "snpilla"
+    ],
+    "topic": "convui"
+  },
+  {
+    "name": "Guardians of the Galaxy",
+    "slackChannel": "th-guardians",
+    "hackers": [
+      "jamwu", "ekalyoncu", "janehrhardt", "jhagel", "esrasmussen"
+    ],
+    "topic": "receng"
+  },
+  {
+    "name": "Futurama",
+    "slackChannel": "th-futurama",
+    "hackers": [
+      "jamwu", "nlnn", "dpostoronc", "kbrischke", "hribeiro", "fnapoletano"
+    ],
+    "topic": "receng"
+  }
+]
+

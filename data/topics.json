@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Combot",
+    "codeName": "combot",
+    "description": "PH_TODO",
+    "submitter": "raymendoza",
+    "teams": [
+      "th-marvel", "th-dc"
+    ]
+  },
+  {
+    "name": "Near-Duplicates",
+    "codeName": "neardup",
+    "description": "PH_TODO",
+    "submitter": "ajoian",
+    "teams": [
+      "th-gameofthrones", "th-thewalkingdead"
+    ]
+  },
+  {
+    "name": "Conversational UI",
+    "codeName": "convui",
+    "description": "PH_TODO",
+    "submitter": "bbompastor",
+    "teams": [
+      "th-usetheforce", "th-thedarkside"
+    ]
+  },
+  {
+    "name": "Recommendation Engine",
+    "codeName": "receng",
+    "description": "PH_TODO",
+    "submitter": "jamwu",
+    "teams": [
+      "th-guardians", "th-futurama"
+    ]
+  }
+]
+
