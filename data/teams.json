@@ -3,8 +3,7 @@
     "name": "Marvel Heroes",
     "slackChannel": "th-marvel",
     "hackers": [
-      "raymendoza", "ipimenov", "ashuiskov",
-      "smably", "yinggu", "crmcmahon"
+      "raymendoza", "ipimenov", "ashuiskov", "smably", "yinggu", "crmcmahon"
     ],
     "topic": "combot",
     "score": 0,
@@ -34,7 +33,7 @@
     "name": "Game of Thrones",
     "slackChannel": "th-gameofthrones",
     "hackers": [
-      "ajoian", "gabriele", "famora", "aelyasov", "beckart"
+      "ajoian", "cdehaudt", "gabriele", "famora", "aelyasov", "beckart"
     ],
     "topic": "neardup",
     "score": 0,
@@ -54,7 +53,7 @@
     "name": "The Dark Side",
     "slackChannel": "th-thedarkside",
     "hackers": [
-      "bbompastor", "osoerensen", "mszczap", "isader", "jesnielsen", "snpilla"
+      "bbompastor", "jbanford", "osoerensen", "mszczap", "isader", "jesnielsen", "snpilla"
     ],
     "topic": "convui",
     "score": 0,
@@ -64,7 +63,7 @@
     "name": "Guardians of the Galaxy",
     "slackChannel": "th-guardians",
     "hackers": [
-      "jamwu", "ekalyoncu", "janehrhardt", "jhagel", "esrasmussen"
+      "jamwu", "nlnn", "ekalyoncu", "janehrhardt", "jhagel", "esrasmussen"
     ],
     "topic": "receng",
     "score": 0,

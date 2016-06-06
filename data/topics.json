@@ -4,6 +4,7 @@
     "codeName": "combot",
     "description": "A chat platform for intelligently adding value to user interactions",
     "submitter": "raymendoza",
+    "siteOps": "raymendoza",
     "teams": [
       "th-marvel", "th-dc"
     ],
@@ -13,7 +14,8 @@
     "name": "Near-Duplicates",
     "codeName": "neardup",
     "description": "Near-duplicates ads detection (massive solution on the cloud)",
-    "submitter": "ajoian",
+    "submitter": "cdehaudt",
+    "siteOps": "ajoian",
     "teams": [
       "th-gameofthrones", "th-thewalkingdead"
     ],
@@ -23,7 +25,8 @@
     "name": "Conversational UI",
     "codeName": "convui",
     "description": "Rapid prototyping of conversational search interfaces for eCG",
-    "submitter": "bbompastor",
+    "submitter": "jbanford",
+    "siteOps": "bbompastor",
     "teams": [
       "th-usetheforce", "th-thedarkside"
     ],
@@ -33,7 +36,8 @@
     "name": "Recommendation Engine",
     "codeName": "receng",
     "description": "A recommendation engine to drive customers success",
-    "submitter": "jamwu",
+    "submitter": "nlnn",
+    "siteOps": "jamwu",
     "teams": [
       "th-guardians", "th-futurama"
     ],
