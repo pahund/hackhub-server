@@ -11,7 +11,8 @@ const TopicSchema = new mongoose.Schema({
     codeName: String,
     description: String,
     submitter: String,
-    teams: [ String ]
+    teams: [ String ],
+    wikiUrl: String
 });
 
 module.exports = mongoose.model("Topic", TopicSchema);

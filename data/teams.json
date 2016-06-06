@@ -6,7 +6,9 @@
       "raymendoza", "ipimenov", "ashuiskov",
       "smably", "yinggu", "crmcmahon"
     ],
-    "topic": "combot"
+    "topic": "combot",
+    "score": 0,
+    "achievements": []
   },
   {
     "name": "DC Heroes",
@@ -14,7 +16,9 @@
     "hackers": [
       "raymendoza", "aneacsu", "efidelin", "davohara", "gvaradi"
     ],
-    "topic": "combot"
+    "topic": "combot",
+    "score": 0,
+    "achievements": []
   },
   {
     "name": "The Walking Dead",
@@ -22,7 +26,9 @@
     "hackers": [
       "ajoian", "cdehaudt", "ayulrizka", "cltran", "saabraham", "feiyu"
     ],
-    "topic": "neardup"
+    "topic": "neardup",
+    "score": 0,
+    "achievements": []
   },
   {
     "name": "Game of Thrones",
@@ -30,7 +36,9 @@
     "hackers": [
       "ajoian", "gabriele", "famora", "aelyasov", "beckart"
     ],
-    "topic": "neardup"
+    "topic": "neardup",
+    "score": 0,
+    "achievements": []
   },
   {
     "name": "Use the Force",
@@ -38,15 +46,19 @@
     "hackers": [
       "bbompastor", "mnchristensen", "gron", "ddebastiani", "jbanford", "wendong"
     ],
-    "topic": "convui"
+    "topic": "convui",
+    "score": 0,
+    "achievements": []
   },
   {
     "name": "The Dark Side",
-    "slackChannel": "",
+    "slackChannel": "th-thedarkside",
     "hackers": [
       "bbompastor", "osoerensen", "mszczap", "isader", "jesnielsen", "snpilla"
     ],
-    "topic": "convui"
+    "topic": "convui",
+    "score": 0,
+    "achievements": []
   },
   {
     "name": "Guardians of the Galaxy",
@@ -54,7 +66,9 @@
     "hackers": [
       "jamwu", "ekalyoncu", "janehrhardt", "jhagel", "esrasmussen"
     ],
-    "topic": "receng"
+    "topic": "receng",
+    "score": 0,
+    "achievements": []
   },
   {
     "name": "Futurama",
@@ -62,7 +76,9 @@
     "hackers": [
       "jamwu", "nlnn", "dpostoronc", "kbrischke", "hribeiro", "fnapoletano"
     ],
-    "topic": "receng"
+    "topic": "receng",
+    "score": 0,
+    "achievements": []
   }
 ]
 

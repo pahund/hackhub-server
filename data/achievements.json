@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "name": "Best Preparation",
+    "codeName": "bestprep",
+    "description": "Best job on preparing for the hackathon, e.g. project skeleton in GitHub, communication in Slack channel, description in the Wiki)",
+    "score": 10,
+    "available": true
+  },
+  {
+    "name": "Fun Event Winner",
+    "codeName": "fistday",
+    "description": "Winner of the activity of the day before the hackathon",
+    "score": 10,
+    "available": true
+  },
+  {
+    "name": "Half-time Most Promising",
+    "codeName": "halftime",
+    "description": "After the first hackathon day, the most promising project",
+    "score": 10,
+    "available": true
+  },
+  {
+    "name": "Best Presentation After Hackathon Block I",
+    "codeName": "bestprez1",
+    "description": "Best presentation after the first hackathon block on Wednesday morning",
+    "score": 10,
+    "available": true
+  },
+  {
+    "name": "Best Presentation After Hackathon Block II",
+    "codeName": "bestprez2",
+    "description": "Best presentation after the second hackathon block on Wednesday at noon",
+    "score": 10,
+    "available": true
+  },
+  {
+    "name": "Best Presentation After Hackathon Block III",
+    "codeName": "bestprez3",
+    "description": "Best presentation after the third hackathon block on Wednesday afternoon",
+    "score": 10,
+    "available": true
+  },
+  {
+    "name": "Best Presentation After Hackathon Block IV",
+    "codeName": "bestprez4",
+    "description": "Best presentation after the fourth hackathon block on Thursday morning",
+    "score": 10,
+    "available": true
+  },
+  {
+    "name": "Best Final Presentation",
+    "codeName": "bestprez5",
+    "description": "Best final presentation on Thursday afternoon",
+    "score": 20,
+    "available": true
+  },
+  {
+    "name": "Software Development Best Practices",
+    "codeName": "bestdev",
+    "description": "Best use of continuous integration, unit tests, etc.",
+    "score": 10,
+    "available": true
+  }
+]

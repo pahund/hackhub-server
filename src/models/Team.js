@@ -10,6 +10,8 @@ const TeamSchema = new mongoose.Schema({
     name: String,
     slackChannel: String,
     hackers: [ String ],
+    score: 0,
+    achievements: [],
     topic: String
 });
 

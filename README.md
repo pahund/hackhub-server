@@ -44,8 +44,9 @@ npm run watch
 
 * `GET /api` – pings the server for a sign of life
 * `GET /api/all` – returns all data for initial setup of the client
-* `GET /api/update` – returns updated scores for hackers 
-* `PUT /api/award/:codeName/:userName` – awards the achievement with `:codeName` to hacker with 
-  `:userName` (with authentication)
+* `GET /api/update` – returns updated scores for teams
+* `PUT /api/bump/:slackChannel` – increases score of team with `:slackChannel` by 1 (with authentication)
+* `PUT /api/award/:codeName/:slackChannel` – awards the achievement with `:codeName` to team with 
+  `:slackChannel` (with authentication)
 
 

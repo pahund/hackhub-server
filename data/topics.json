@@ -2,38 +2,42 @@
   {
     "name": "Combot",
     "codeName": "combot",
-    "description": "PH_TODO",
+    "description": "A chat platform for intelligently adding value to user interactions",
     "submitter": "raymendoza",
     "teams": [
       "th-marvel", "th-dc"
-    ]
+    ],
+    "wikiUrl": "https://ecgwiki.corp.ebay.com/x/1FvtBw"
   },
   {
     "name": "Near-Duplicates",
     "codeName": "neardup",
-    "description": "PH_TODO",
+    "description": "Near-duplicates ads detection (massive solution on the cloud)",
     "submitter": "ajoian",
     "teams": [
       "th-gameofthrones", "th-thewalkingdead"
-    ]
+    ],
+    "wikiUrl": "https://ecgwiki.corp.ebay.com/x/B1ntBw"
   },
   {
     "name": "Conversational UI",
     "codeName": "convui",
-    "description": "PH_TODO",
+    "description": "Rapid prototyping of conversational search interfaces for eCG",
     "submitter": "bbompastor",
     "teams": [
       "th-usetheforce", "th-thedarkside"
-    ]
+    ],
+    "wikiUrl": "https://ecgwiki.corp.ebay.com/x/hlrtBw"
   },
   {
     "name": "Recommendation Engine",
     "codeName": "receng",
-    "description": "PH_TODO",
+    "description": "A recommendation engine to drive customers success",
     "submitter": "jamwu",
     "teams": [
       "th-guardians", "th-futurama"
-    ]
+    ],
+    "wikiUrl": "https://ecgwiki.corp.ebay.com/x/sAD-Bw"
   }
 ]
 
