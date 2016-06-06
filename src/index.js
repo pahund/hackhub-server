@@ -33,8 +33,7 @@ bump(router);
 all(router);
 update(router);
 
-// app.use("/api/", router);
-app.use("/", router);
+app.use("/api/", router);
 
 app.listen(port);
 
