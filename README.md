@@ -47,7 +47,7 @@ Copy the credentials shown on the console, you need this for authenticating your
 npm start
 ```
 
-## Running in local dev mode
+## Running in Local Dev Mode
 
 ```
 npm run watch
