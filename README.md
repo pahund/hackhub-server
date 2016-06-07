@@ -24,9 +24,22 @@ mongoimport --db hackhub --collection topics --jsonArray --file data/topics.json
 
 ## Installation
 
+Install the software with npm:
+
 ```
 npm install
 ```
+
+After installation, you need to create a file `credentials.json` in the project root dir that
+is used for authentication of API requests with write usecases.
+
+To create the file, run the `createCredentials` script like so:
+
+```
+node createCredentials.js
+```
+
+Copy the credentials shown on the console, you need this for authenticating your requests.
 
 ## Running in Production
 
