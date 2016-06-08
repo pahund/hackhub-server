@@ -4,7 +4,7 @@
   "description": "Backend server for HackHub, website for the eBay Classifieds Group TechHack Berlin 2016",
   "main": "src/index.js",
   "scripts": {
-    "start": "node_modules/.bin/pm2 start ./src/index.js --name 'HackHub' --log-date-format 'DD-MM HH:mm:ss.SSS'",
+    "start": "node_modules/.bin/pm2 start ./src/index.js --name 'HackHub' --log logs/hackhub.log --merge-logs --log-date-format 'DD-MM HH:mm:ss.SSS'",
     "stop": "node_modules/.bin/pm2 stop HackHub",
     "restart": "node_modules/.bin/pm2 restart HackHub",
     "delete": "node_modules/.bin/pm2 delete HackHub",

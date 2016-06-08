@@ -3,4 +3,5 @@ node_modules
 *.iml
 credentials.json
 npm-debug.log
+logs
 

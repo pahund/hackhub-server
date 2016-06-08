@@ -33,5 +33,5 @@ app.use("/api/", router);
 
 app.listen(port);
 
-console.log(`API is running on port ${port}`);
+console.log(`HackHub API is running on port ${port}`);
 

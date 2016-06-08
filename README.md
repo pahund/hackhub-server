@@ -73,6 +73,8 @@ Tail the log file:
 npm run logs
 ```
 
+Log files are located in the `logs` directory below the project root.
+
 ## Running in Local Dev Mode
 
 This starts the server with [nodemon](http://nodemon.io/) and restarts automatically when source code is changed:
