@@ -4,7 +4,11 @@
   "description": "Backend server for HackHub, website for the eBay Classifieds Group TechHack Berlin 2016",
   "main": "src/index.js",
   "scripts": {
-    "start": "node ./src/index.js",
+    "start": "node_modules/.bin/pm2 start ./src/index.js --name 'HackHub' --log-date-format 'DD-MM HH:mm:ss.SSS'",
+    "stop": "node_modules/.bin/pm2 stop HackHub",
+    "restart": "node_modules/.bin/pm2 restart HackHub",
+    "delete": "node_modules/.bin/pm2 delete HackHub",
+    "logs": "node_modules/.bin/pm2 logs HackHub",
     "watch": "node_modules/.bin/nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,7 +28,8 @@
     "cors": "^2.7.1",
     "express": "^4.13.4",
     "mongoose": "^4.4.19",
-    "node-uuid": "^1.4.7"
+    "node-uuid": "^1.4.7",
+    "pm2": "^1.1.3"
   },
   "devDependencies": {
     "nodemon": "^1.9.2"

@@ -43,11 +43,39 @@ Copy the credentials shown on the console, you need this for authenticating your
 
 ## Running in Production
 
+Spawn a [pm2](http://pm2.keymetrics.io/) process named “HackHub”:
+
 ```
 npm start
 ```
 
+Restart the process:
+
+```
+npm run restart
+```
+
+Stop the process:
+
+```
+npm run stop
+```
+
+Delete the process:
+
+```
+npm run delete
+```
+
+Tail the log file:
+
+```
+npm run logs
+```
+
 ## Running in Local Dev Mode
+
+This starts the server with [nodemon](http://nodemon.io/) and restarts automatically when source code is changed:
 
 ```
 npm run watch

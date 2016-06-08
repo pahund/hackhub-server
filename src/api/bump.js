@@ -20,9 +20,9 @@ module.exports = router => router.route("/bump/:slackChannel").put(
                     res.send(err);
                     return;
                 }
-                res.json({
-                    message: `Score of team ${team.name} bumped to ${team.score}`
-                });
+                const message = `Score of team ${team.name} bumped to ${team.score}`;
+                console.info(message);
+                res.json({ message });
             });
         });
     })
