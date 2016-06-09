@@ -11,6 +11,7 @@ const mongoose = require("mongoose");
 const bump = require("./api/bump");
 const all = require("./api/all");
 const update = require("./api/update");
+const award = require("./api/award");
 
 mongoose.connect("mongodb://localhost:27017/hackhub");
 
@@ -28,6 +29,7 @@ router.get("/", (req, res) => res.json({ message: "Welcome to the HackHub API!" 
 bump(router);
 all(router);
 update(router);
+award(router);
 
 app.use("/api/", router);
 

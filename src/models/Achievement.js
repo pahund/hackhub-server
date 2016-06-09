@@ -12,7 +12,8 @@ const AchievementSchema = new mongoose.Schema({
     description: String,
     score: Number,
     available: Boolean,
-    singleton: Boolean
+    singleton: Boolean,
+    teams: [ String ]
 });
 
 module.exports = mongoose.model("Achievement", AchievementSchema);
