@@ -11,7 +11,8 @@ const AchievementSchema = new mongoose.Schema({
     codeName: String,
     description: String,
     score: Number,
-    available: Boolean
+    available: Boolean,
+    singleton: Boolean
 });
 
 module.exports = mongoose.model("Achievement", AchievementSchema);

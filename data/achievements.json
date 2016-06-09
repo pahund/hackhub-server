@@ -4,62 +4,111 @@
     "codeName": "bestprep",
     "description": "Best job on preparing for the hackathon, e.g. project skeleton in GitHub, communication in Slack channel, description in the Wiki)",
     "score": 20,
-    "available": true
+    "available": true,
+    "singleton": true
   },
   {
     "name": "Fun Event Winner",
     "codeName": "fistday",
     "description": "Winner of the activity of the day before the hackathon",
     "score": 20,
-    "available": true
+    "available": true,
+    "singleton": true
   },
   {
     "name": "Half-time Most Promising",
     "codeName": "halftime",
     "description": "After the first hackathon day, the most promising project",
     "score": 20,
-    "available": true
+    "available": true,
+    "singleton": true
   },
   {
     "name": "Best Presentation After Hackathon Block I",
     "codeName": "bestprez1",
     "description": "Best presentation after the first hackathon block on Wednesday morning",
     "score": 10,
-    "available": true
+    "available": true,
+    "singleton": true
   },
   {
     "name": "Best Presentation After Hackathon Block II",
     "codeName": "bestprez2",
     "description": "Best presentation after the second hackathon block on Wednesday at noon",
     "score": 10,
-    "available": true
+    "available": true,
+    "singleton": true
   },
   {
     "name": "Best Presentation After Hackathon Block III",
     "codeName": "bestprez3",
     "description": "Best presentation after the third hackathon block on Wednesday afternoon",
     "score": 10,
-    "available": true
+    "available": true,
+    "singleton": true
   },
   {
     "name": "Best Presentation After Hackathon Block IV",
     "codeName": "bestprez4",
     "description": "Best presentation after the fourth hackathon block on Thursday morning",
     "score": 10,
-    "available": true
+    "available": true,
+    "singleton": true
   },
   {
     "name": "Best Final Presentation",
     "codeName": "bestprez5",
     "description": "Best final presentation on Thursday afternoon",
     "score": 30,
-    "available": true
+    "available": true,
+    "singleton": true
   },
   {
     "name": "Software Development Best Practices",
     "codeName": "bestdev",
     "description": "Best use of continuous integration, unit tests, etc.",
     "score": 10,
-    "available": true
+    "available": true,
+    "singleton": true
+  },
+  {
+    "name": "Hacking on the Go",
+    "codeName": "mobile",
+    "description": "Project has a mobile phone client",
+    "score": 7,
+    "available": true,
+    "singleton": false
+  },
+  {
+    "name": "Driven by Tests",
+    "codeName": "test",
+    "description": "Project has automated testing",
+    "score": 6,
+    "available": true,
+    "singleton": false
+  },
+  {
+    "name": "“Soooo pretty!”",
+    "codeName": "pretty",
+    "description": "Project has a slick user interface",
+    "score": 5,
+    "available": true,
+    "singleton": false
+  },
+  {
+    "name": "For Posterity's Sake",
+    "codeName": "docs",
+    "description": "Project has useful documentation",
+    "score": 4,
+    "available": true,
+    "singleton": false
+  },
+  {
+    "name": "“He's dead, Jim.”",
+    "codeName": "dead",
+    "description": "Consolation prize for failed demo",
+    "score": 3,
+    "available": true,
+    "singleton": false
   }
 ]
