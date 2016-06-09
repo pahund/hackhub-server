@@ -8,15 +8,40 @@
  * @since 05 Jun 2016
  */
 const Promise = require("bluebird");
-
+const Achievement = require("../models/Achievement");
 const Team = require("../models/Team");
 
 Promise.promisifyAll(Team);
+Promise.promisifyAll(Achievement);
 
 module.exports = router => router.route("/update").get((req, res) =>
-    Team.find().then(
-        teams => res.json(teams.reduce(
-            (prev, curr) => Object.assign({}, prev, { [curr.slackChannel]: curr.score }), {}
-        ))
-    ).catch(err => res.send(err))
+    Promise.all([
+        Team.find(),
+        Achievement.find()
+    ]).then(([ teamList, achievementList ]) =>
+        res.json({
+            teams: teamList.reduce(
+                (prev, { slackChannel, achievements, score }) => Object.assign(
+                    {}, prev, {
+                        [slackChannel]: {
+                            score,
+                            achievements
+                        }
+                    }
+                ), {}
+            ),
+            achievements: achievementList.reduce(
+                (prev, { codeName, available, teams }) => Object.assign(
+                    {}, prev, {
+                        [codeName]: {
+                            available,
+                            teams
+                        }
+                    }
+                ), {}
+            )
+        })
+    ).catch(err => res.status(500).json({
+        message: `Failed to retrieve update data: ${err.message}`
+    }))
 );
