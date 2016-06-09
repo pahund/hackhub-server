@@ -104,10 +104,26 @@
     "singleton": false
   },
   {
+    "name": "”Works not only on my machine!”",
+    "codeName": "staging",
+    "description": "Project has a staging server",
+    "score": 3,
+    "available": true,
+    "singleton": false
+  },
+  {
     "name": "“He's dead, Jim.”",
     "codeName": "dead",
     "description": "Consolation prize for failed demo",
-    "score": 3,
+    "score": 2,
+    "available": true,
+    "singleton": false
+  },
+  {
+    "name": "“All work and no play makes Jack a dull boy.”",
+    "codeName": "play",
+    "description": "Team member has beaten the high score at Tetris or Pacman",
+    "score": 1,
     "available": true,
     "singleton": false
   }
