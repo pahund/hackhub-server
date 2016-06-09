@@ -9,7 +9,7 @@
   },
   {
     "name": "Fun Event Winner",
-    "codeName": "fistday",
+    "codeName": "fun",
     "description": "Winner of the activity of the day before the hackathon",
     "score": 20,
     "available": true,
