@@ -8,7 +8,9 @@ const credentials = require("../../credentials.json");
 
 module.exports = func => (req, res) => {
     if (req.hostname !== "localhost" && req.protocol !== "https") {
-        res.status(403).json({ error: "SSL access only" });
+        res.status(403).json(
+            { error: `SSL access only; protocol ${req.protocol} is not allowed for host ${req.hostname}` }
+        );
         return;
     }
     if (!req.headers.authorization) {
