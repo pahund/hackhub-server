@@ -7,10 +7,8 @@
 const credentials = require("../../credentials.json");
 
 module.exports = func => (req, res) => {
-    if (req.hostname !== "localhost" && req.protocol !== "https") {
-        res.status(403).json(
-            { error: `SSL access only; protocol ${req.protocol} is not allowed for host ${req.hostname}` }
-        );
+    if (req.hostname !== "localhost" && req.get("host").endsWith(":8080")) {
+        res.status(403).json({ error: "Access over port 8080 is forbidden" });
         return;
     }
     if (!req.headers.authorization) {
