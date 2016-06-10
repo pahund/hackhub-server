@@ -72,7 +72,7 @@
     "singleton": true
   },
   {
-    "name": "Hacking on the Go",
+    "name": "Hacking on the go",
     "codeName": "mobile",
     "description": "Project has a mobile phone client",
     "score": 7,
@@ -80,7 +80,7 @@
     "singleton": false
   },
   {
-    "name": "Driven by Tests",
+    "name": "Driven by tests",
     "codeName": "test",
     "description": "Project has automated testing",
     "score": 6,
@@ -96,17 +96,25 @@
     "singleton": false
   },
   {
-    "name": "Livin' on Cloud 9",
+    "name": "Livin' on cloud 9",
     "codeName": "cloud",
-    "description": "Project is hosted on the eCG Cloud",
+    "description": "Project is hosted on the eCG cloud",
     "score": 5,
     "available": true,
     "singleton": false
   },
   {
-    "name": "For Posterity's Sake",
+    "name": "For posterity's sake",
     "codeName": "docs",
     "description": "Project has useful documentation",
+    "score": 4,
+    "available": true,
+    "singleton": false
+  },
+  {
+    "name": "John McCarthy would be proud",
+    "codeName": "functional",
+    "description": "Extensive use of functional programming",
     "score": 4,
     "available": true,
     "singleton": false
