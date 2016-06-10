@@ -96,6 +96,14 @@
     "singleton": false
   },
   {
+    "name": "Livin' on Cloud 9",
+    "codeName": "cloud",
+    "description": "Project is hosted on the eCG Cloud",
+    "score": 5,
+    "available": true,
+    "singleton": false
+  },
+  {
     "name": "For Posterity's Sake",
     "codeName": "docs",
     "description": "Project has useful documentation",
@@ -104,7 +112,7 @@
     "singleton": false
   },
   {
-    "name": "”Works not only on my machine!”",
+    "name": "“Works not only on my machine!”",
     "codeName": "staging",
     "description": "Project has a staging server",
     "score": 3,
