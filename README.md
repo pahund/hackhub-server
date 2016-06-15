@@ -20,7 +20,7 @@ mongoimport --db hackhub --collection achievements --jsonArray --file data/achie
 mongoimport --db hackhub --collection hackers --jsonArray --file data/hackers.json
 mongoimport --db hackhub --collection teams --jsonArray --file data/teams.json
 mongoimport --db hackhub --collection topics --jsonArray --file data/topics.json
-mongoimport --db hackhub --collection scheduleItems --jsonArray --file data/scheduleItems.json
+mongoimport --db hackhub --collection scheduleitems --jsonArray --file data/scheduleItems.json
 ```
 
 ## Installation
@@ -75,6 +75,12 @@ npm run logs
 ```
 
 Log files are located in the `logs` directory below the project root.
+
+*Note:* If Ingo's server says “npm command not found”, do this: 
+
+```
+nvm use 6.2.1
+```
 
 ## Running in Local Dev Mode
 
