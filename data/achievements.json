@@ -128,6 +128,14 @@
     "singleton": false
   },
   {
+    "name": "Tweet! Tweet!",
+    "codeName": "tweet",
+    "description": "Team is sharing the hackathon experience on social media",
+    "score": 3,
+    "available": true,
+    "singleton": false
+  },
+  {
     "name": "“He's dead, Jim.”",
     "codeName": "dead",
     "description": "Consolation prize for failed demo",
@@ -139,6 +147,14 @@
     "name": "“All work and no play makes Jack a dull boy.”",
     "codeName": "play",
     "description": "Team member has beaten the high score at Tetris or Pacman",
+    "score": 1,
+    "available": true,
+    "singleton": false
+  },
+  {
+    "name": "Born ready",
+    "codeName": "ready",
+    "description": "All team members remembered to bring their laptops and VPN tokens",
     "score": 1,
     "available": true,
     "singleton": false
