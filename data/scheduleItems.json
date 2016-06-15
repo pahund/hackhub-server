@@ -1,0 +1,238 @@
+[
+  {
+    "start": 1466503200,
+    "end": 1466532000,
+    "events": [
+      {
+        "type": "break",
+        "description": "Arrival, leisure time"
+      }
+    ]
+  },
+  {
+    "start": 1466532000,
+    "end": 1466535600,
+    "events": [
+      {
+        "type": "other",
+        "description": "Get together, opening remarks"
+      }
+    ]
+  },
+  {
+    "start": 1466535600,
+    "end": 1466546400,
+    "events": [
+      {
+        "type": "break",
+        "description": "Fun event"
+      }
+    ]
+  },
+  {
+    "start": 1466546400,
+    "events": [
+      {
+        "type": "break",
+        "description": "Dinner and after event"
+      }
+    ]
+  },
+  {
+    "start": 1466591400,
+    "end": 1466595000,
+    "events": [
+      {
+        "type": "break",
+        "description": "Breakfast"
+      }
+    ]
+  },
+  {
+    "start": 1466595000,
+    "end": 1466598600,
+    "events": [
+      {
+        "type": "other",
+        "description": "Introduction, keynote"
+      }
+    ]
+  },
+  {
+    "start": 1466598600,
+    "end": 1466600400,
+    "events": [
+      {
+        "type": "other",
+        "description": "Team preparation"
+      }
+    ]
+  },
+  {
+    "start": 1466600400,
+    "end": 1466607600,
+    "events": [
+      {
+        "type": "hack",
+        "description": "1st hackathon block"
+      }
+    ]
+  },
+  {
+    "start": 1466607600,
+    "end": 1466611200,
+    "events": [
+      {
+        "type": "break",
+        "description": "Lunch"
+      }
+    ]
+  },
+  {
+    "start": 1466611200,
+    "end": 1466613000,
+    "events": [
+      {
+        "type": "prez",
+        "description": "Results presentation"
+      }
+    ]
+  },
+  {
+    "start": 1466613000,
+    "end": 1466618400,
+    "events": [
+      {
+        "type": "hack",
+        "description": "2nd hackathon block"
+      }
+    ]
+  },
+  {
+    "start": 1466618400,
+    "end": 1466620200,
+    "events": [
+      {
+        "type": "prez",
+        "description": "Results presentation"
+      },
+      {
+        "type": "break",
+        "description": "Coffee break"
+      }
+    ]
+  },
+  {
+    "start": 1466620200,
+    "end": 1466625600,
+    "events": [
+      {
+        "type": "hack",
+        "description": "3rd hackathon block"
+      }
+    ]
+  },
+  {
+    "start": 1466625600,
+    "end": 1466627400,
+    "events": [
+      {
+        "type": "prez",
+        "description": "Results presentation"
+      }
+    ]
+  },
+  {
+    "start": 1466627400,
+    "events": [
+      {
+        "type": "break",
+        "description": "Dinner"
+      }
+    ]
+  },
+  {
+    "start": 1466677800,
+    "end": 1466681400,
+    "events": [
+      {
+        "type": "break",
+        "description": "Breakfast"
+      }
+    ]
+  },
+  {
+    "start": 1466681400,
+    "end": 1466690400,
+    "events": [
+      {
+        "type": "hack",
+        "description": "4th hackathon block"
+      }
+    ]
+  },
+  {
+    "start": 1466690400,
+    "end": 1466692200,
+    "events": [
+      {
+        "type": "prez",
+        "description": "Results presentation"
+      }
+    ]
+  },
+  {
+    "start": 1466692200,
+    "end": 1466695800,
+    "events": [
+      {
+        "type": "break",
+        "description": "Lunch"
+      }
+    ]
+  },
+  {
+    "start": 1466695800,
+    "end": 1466703000,
+    "events": [
+      {
+        "type": "hack",
+        "description": "5th hackathon block"
+      }
+    ]
+  },
+  {
+    "start": 1466703000,
+    "end": 1466705700,
+    "events": [
+      {
+        "type": "prez",
+        "description": "Final results presentation"
+      },
+      {
+        "type": "break",
+        "description": "Coffee break"
+      }
+    ]
+  },
+  {
+    "start": 1466705700,
+    "end": 1466708400,
+    "events": [
+      {
+        "type": "other",
+        "description": "Ceremony, retrospective, feedback"
+      }
+    ]
+  },
+  {
+    "start": 1466708400,
+    "end": 1466709300,
+    "events": [
+      {
+        "type": "break",
+        "description": "Closing remarks, group photo"
+      }
+    ]
+  }
+]

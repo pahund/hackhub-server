@@ -13,28 +13,33 @@ const Achievement = require("../models/Achievement");
 const Hacker = require("../models/Hacker");
 const Team = require("../models/Team");
 const Topic = require("../models/Topic");
+const ScheduleItem = require("../models/ScheduleItem");
 
 Promise.promisifyAll(Achievement);
 Promise.promisifyAll(Hacker);
 Promise.promisifyAll(Team);
 Promise.promisifyAll(Topic);
+Promise.promisifyAll(ScheduleItem);
 
 module.exports = router => router.route("/all").get((req, res) => {
     Promise.all([
         Achievement.find(),
         Hacker.find(),
         Team.find(),
-        Topic.find()
+        Topic.find(),
+        ScheduleItem.find()
     ]).then(([
         achievements,
         hackers,
         teams,
-        topics
+        topics,
+        scheduleItems
     ]) => res.json({
         achievements,
         hackers,
         teams,
-        topics
+        topics,
+        scheduleItems
     })).catch(err => res.send(err));
 });
 

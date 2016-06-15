@@ -20,6 +20,7 @@ mongoimport --db hackhub --collection achievements --jsonArray --file data/achie
 mongoimport --db hackhub --collection hackers --jsonArray --file data/hackers.json
 mongoimport --db hackhub --collection teams --jsonArray --file data/teams.json
 mongoimport --db hackhub --collection topics --jsonArray --file data/topics.json
+mongoimport --db hackhub --collection scheduleItems --jsonArray --file data/scheduleItems.json
 ```
 
 ## Installation
