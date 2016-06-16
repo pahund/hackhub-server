@@ -12,6 +12,7 @@ const bump = require("./api/bump");
 const all = require("./api/all");
 const update = require("./api/update");
 const award = require("./api/award");
+const schedule = require("./api/schedule");
 
 mongoose.connect("mongodb://localhost:27017/hackhub");
 
@@ -30,6 +31,7 @@ bump(router);
 all(router);
 update(router);
 award(router);
+schedule(router);
 
 app.use("/api/", router);
 
