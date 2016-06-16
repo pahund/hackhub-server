@@ -12,8 +12,8 @@ const EventSchema = new mongoose.Schema({
 });
 
 const ScheduleItemSchema = new mongoose.Schema({
-    start: Number,
-    end: Number,
+    start: Date,
+    end: Date,
     events: [EventSchema]
 });
 
