@@ -19,7 +19,11 @@
     "events": [
       {
         "type": "other",
-        "description": "Get together, opening remarks"
+        "description": "Get together, opening remarks",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
+          "description": "Park Inn, 37th floor"
+        }
       }
     ]
   },
@@ -38,7 +42,11 @@
     "events": [
       {
         "type": "break",
-        "description": "Dinner and after event"
+        "description": "Dinner and after event",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/R7iiwvsEuhR2",
+          "description": "<a href=\"http://www.hofbraeu-wirtshaus.de/en/home/\">Hofbräu Berlin</a><br>Karl-Liebknecht-Str. 30<br>10178 Berlin"
+        }
       }
     ]
   },
@@ -48,7 +56,11 @@
     "events": [
       {
         "type": "break",
-        "description": "Breakfast"
+        "description": "Breakfast",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
+          "description": "Park Inn, restaurant, 2nd floor"
+        }
       }
     ]
   },
@@ -58,7 +70,11 @@
     "events": [
       {
         "type": "other",
-        "description": "Introduction<br>Keynote speaker: <a href=\"http://www.fabianhemmert.com/\">Fabian Hemmert</a>"
+        "description": "Introduction<br>Keynote speaker: <a href=\"http://www.fabianhemmert.com/\">Fabian Hemmert</a>",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
+          "description": "Park Inn, hackathon arena, 37th floor"
+        }
       }
     ]
   },
@@ -88,7 +104,11 @@
     "events": [
       {
         "type": "break",
-        "description": "Lunch"
+        "description": "Lunch",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
+          "description": "Park Inn, restaurant, 2nd floor"
+        }
       }
     ]
   },
@@ -98,7 +118,11 @@
     "events": [
       {
         "type": "prez",
-        "description": "Results presentation"
+        "description": "Results presentation",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
+          "description": "Park Inn, hackathon arena, 37th floor"
+        }
       }
     ]
   },
@@ -151,7 +175,11 @@
     "events": [
       {
         "type": "break",
-        "description": "Dinner"
+        "description": "Dinner",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/jdQ8yZGxtZx",
+          "description": "<a href=\"http://www.the-grand-berlin.com/en/restaurant\">The Grand</a><br>Hirtenstraße 4<br>10178 Berlin"
+        }
       }
     ]
   },
@@ -161,7 +189,11 @@
     "events": [
       {
         "type": "break",
-        "description": "Breakfast"
+        "description": "Breakfast",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
+          "description": "Park Inn, restaurant, 2nd floor"
+        }
       }
     ]
   },
@@ -171,7 +203,11 @@
     "events": [
       {
         "type": "hack",
-        "description": "4th hackathon block"
+        "description": "4th hackathon block",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
+          "description": "Park Inn, hackathon arena, 37th floor"
+        }
       }
     ]
   },
@@ -191,7 +227,11 @@
     "events": [
       {
         "type": "break",
-        "description": "Lunch"
+        "description": "Lunch",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
+          "description": "Park Inn, restaurant, 2nd floor"
+        }
       }
     ]
   },
@@ -201,7 +241,11 @@
     "events": [
       {
         "type": "hack",
-        "description": "5th hackathon block"
+        "description": "5th hackathon block",
+        "location": {
+          "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
+          "description": "Park Inn, hackathon arena, 37th floor"
+        }
       }
     ]
   },
