@@ -42,8 +42,9 @@
     "events": [
       {
         "type": "break",
-        "description": "Dinner and after event<br><em>We meet in the Park Inn lobby, ground floor!</em>",
+        "description": "Dinner and after event",
         "location": {
+          "alert": "We meet in the Park Inn lobby, ground floor!",
           "mapUrl": "https://goo.gl/maps/R7iiwvsEuhR2",
           "description": "<a href=\"http://www.hofbraeu-wirtshaus.de/en/home/\">Hofbräu Berlin</a><br>Karl-Liebknecht-Str. 30<br>10178 Berlin"
         }
@@ -175,8 +176,9 @@
     "events": [
       {
         "type": "break",
-        "description": "Dinner<br><em>We meet in the Park Inn lobby, ground floor!</em>",
+        "description": "Dinner",
         "location": {
+          "alert": "We meet in the Park Inn lobby, ground floor!",
           "mapUrl": "https://goo.gl/maps/jdQ8yZGxtZx",
           "description": "<a href=\"http://www.the-grand-berlin.com/en/restaurant\">The Grand</a><br>Hirtenstraße 4<br>10178 Berlin"
         }
