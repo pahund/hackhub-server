@@ -22,7 +22,7 @@
         "description": "Get together, opening remarks",
         "location": {
           "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
-          "description": "Park Inn, 37th floor"
+          "description": "Park Inn, Panorama, 37<sup>th</sup> floor"
         }
       }
     ]
@@ -42,7 +42,7 @@
     "events": [
       {
         "type": "break",
-        "description": "Dinner and after event",
+        "description": "Dinner and after event<br><em>We meet in the Park Inn lobby, ground floor!</em>",
         "location": {
           "mapUrl": "https://goo.gl/maps/R7iiwvsEuhR2",
           "description": "<a href=\"http://www.hofbraeu-wirtshaus.de/en/home/\">Hofbräu Berlin</a><br>Karl-Liebknecht-Str. 30<br>10178 Berlin"
@@ -59,7 +59,7 @@
         "description": "Breakfast",
         "location": {
           "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
-          "description": "Park Inn, restaurant, 2nd floor"
+          "description": "Park Inn, restaurant <em>Humboldt's</em>, 1<sup>st</sup> floor"
         }
       }
     ]
@@ -73,7 +73,7 @@
         "description": "Introduction<br>Keynote speaker: <a href=\"http://www.fabianhemmert.com/\">Fabian Hemmert</a>",
         "location": {
           "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
-          "description": "Park Inn, hackathon arena, 37th floor"
+          "description": "Park Inn, Panorama, 37<sup>th</sup> floor"
         }
       }
     ]
@@ -94,7 +94,7 @@
     "events": [
       {
         "type": "hack",
-        "description": "1st hackathon block"
+        "description": "1<sup>st</sup> hackathon block"
       }
     ]
   },
@@ -107,7 +107,7 @@
         "description": "Lunch",
         "location": {
           "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
-          "description": "Park Inn, restaurant, 2nd floor"
+          "description": "Park Inn, restaurant <em>Humboldt's</em>, 1<sup>st</sup> floor"
         }
       }
     ]
@@ -121,7 +121,7 @@
         "description": "Results presentation",
         "location": {
           "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
-          "description": "Park Inn, hackathon arena, 37th floor"
+          "description": "Park Inn, Panorama, 37<sup>th</sup> floor"
         }
       }
     ]
@@ -132,7 +132,7 @@
     "events": [
       {
         "type": "hack",
-        "description": "2nd hackathon block"
+        "description": "2<sup>nd</sup> hackathon block"
       }
     ]
   },
@@ -156,7 +156,7 @@
     "events": [
       {
         "type": "hack",
-        "description": "3rd hackathon block"
+        "description": "3<sup>rd</sup> hackathon block"
       }
     ]
   },
@@ -171,11 +171,11 @@
     ]
   },
   {
-    "start": "2016-06-22T18:30:00+02:00",
+    "start": "2016-06-22T19:15:00+02:00",
     "events": [
       {
         "type": "break",
-        "description": "Dinner",
+        "description": "Dinner<br><em>We meet in the Park Inn lobby, ground floor!</em>",
         "location": {
           "mapUrl": "https://goo.gl/maps/jdQ8yZGxtZx",
           "description": "<a href=\"http://www.the-grand-berlin.com/en/restaurant\">The Grand</a><br>Hirtenstraße 4<br>10178 Berlin"
@@ -192,7 +192,7 @@
         "description": "Breakfast",
         "location": {
           "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
-          "description": "Park Inn, restaurant, 2nd floor"
+          "description": "Park Inn, restaurant <em>Humboldt's</em>, 1<sup>st</sup> floor"
         }
       }
     ]
@@ -203,10 +203,10 @@
     "events": [
       {
         "type": "hack",
-        "description": "4th hackathon block",
+        "description": "4<sup>th</sup> hackathon block",
         "location": {
           "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
-          "description": "Park Inn, hackathon arena, 37th floor"
+          "description": "Park Inn, Panorama, 37<sup>th</sup> floor"
         }
       }
     ]
@@ -230,7 +230,7 @@
         "description": "Lunch",
         "location": {
           "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
-          "description": "Park Inn, restaurant, 2nd floor"
+          "description": "Park Inn, restaurant <em>Humboldt's</em>, 1<sup>st</sup> floor"
         }
       }
     ]
@@ -241,10 +241,10 @@
     "events": [
       {
         "type": "hack",
-        "description": "5th hackathon block",
+        "description": "5<sup>th</sup> hackathon block",
         "location": {
           "mapUrl": "https://goo.gl/maps/1ZvFw6HEN1H2",
-          "description": "Park Inn, hackathon arena, 37th floor"
+          "description": "Park Inn, Panorama, 37<sup>th</sup> floor"
         }
       }
     ]
