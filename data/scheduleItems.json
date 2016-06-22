@@ -142,10 +142,6 @@
     "end": "2016-06-22T16:30:00+02:00",
     "events": [
       {
-        "type": "prez",
-        "description": "Results presentation"
-      },
-      {
         "type": "break",
         "description": "Coffee break"
       }
